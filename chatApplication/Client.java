@@ -36,7 +36,7 @@ public class Client extends JFrame {
 
 		try {
 			System.out.println("Sending request to server.......");
-			socket = new Socket("192.168.0.102", 7777);
+			socket = new Socket("Enter you IP Address", 7777);
 			System.out.println("Connection Completed!");
 
 			br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
